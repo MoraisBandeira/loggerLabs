@@ -1,0 +1,24 @@
+{
+  "name": "projetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-useragent": "^1.0.15",
+    "express-winston": "^4.2.0",
+    "koa": "^2.15.3",
+    "morgan": "^1.10.0",
+    "pino-http": "^10.1.0",
+    "rotating-file-stream": "^3.2.3",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.13.0"
+  }
+}
