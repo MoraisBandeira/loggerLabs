@@ -10,6 +10,7 @@ function serverHttp(logger){
 
     app.get('/login', (req, res) => {
     res.send('olá DevPleno').status(400)
+    console.log("ola mundo")
     }).post('/sign-in',(req, res)=>{
         console.log(req.body.name);
         res.json({'ok':'ok'})
